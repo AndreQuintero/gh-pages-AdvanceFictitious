@@ -154,6 +154,11 @@ margin-left: auto;
 }
 
 @media screen and (max-width: 600px) {
+    
+    .bannerAbout{
+        background-attachment: scroll;
+    }
+    
     .avatarCEO img{
         margin-left: 20%;
     }
