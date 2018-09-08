@@ -1,0 +1,263 @@
+/*CSS*/
+
+.body{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.color-menu{
+    background-color: #0A1E3D;
+}
+
+.menu-navbar{
+    
+    height: 50px;
+    width: 100%;
+    
+
+}
+
+.ps-fixed{
+    z-index: 1000;
+    position: fixed;
+}
+
+ul{
+    padding-top: 10px !important;
+}
+
+li{
+
+   display: inline;
+   font-family: 'Ubuntu', sans-serif !important;
+   color: #fff;
+   font-size: 1.3rem;
+   cursor: pointer;
+
+}
+
+a{
+  color:inherit; 
+  
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F26522;
+    transition: 0.2s ease-in;
+}
+.pd_15{
+    padding: 15px;
+}
+
+.pd_10{
+    padding: 10px;
+}
+
+.banner{
+    background-image: url('../img/Tecnologia.jpg');
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+}
+
+.banner::after{
+        content:'';
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color:rgba(0,0,0,.6);
+}
+
+.title-banner{
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    padding-top: 15%;
+}
+
+.title-banner h1{
+    font-size: 5.2rem !important;
+    bottom: 30% !important;
+}
+
+.title-text-carousel h1{
+    font-size: 5.2rem !important;
+}
+
+.carousel-caption{
+    bottom: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .ml15percent-only-mobile{
+        margin-left: 15%;
+    }
+
+    .problem-title-text{
+        font-size: 4.2rem !important;
+    }
+    .icons{
+        margin-left: 23%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .txt-align-c{
+        text-align: center !important;
+    }
+
+    .d-none{
+        display: block !important;
+    }
+
+    .title-text-carousel h1{
+        font-size: 2.6rem !important;
+    }
+
+    .text-align-center-only-mobile{
+        text-align: center;
+    }
+
+    .social{
+        padding: 5px;
+    }
+  }
+
+  .txt-align-c{
+    text-align: center;
+}
+
+.problem-title{
+    padding-top: 10%;
+    color: #0A1E3D;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.problem-title-text{
+    font-size: 5.2rem;
+
+}
+
+.border{
+    border-bottom: 5px solid #F26522 !important;
+  
+}
+
+.wd70percent{
+    width: 70%;
+}
+
+.pb10percent{
+    padding-bottom: 10%;
+}
+
+.pb5percent{
+    padding-bottom: 5%;
+}
+
+.f7f7f7{
+    background-color: #f7f7f7;
+}
+
+.caption{
+    font-weight: 700;
+}
+
+.services{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif !important;
+    color: #0A1E3D;
+}
+
+figcaption{
+    padding-top: 10%;
+}
+
+.txt-align-r{
+    text-align: right;
+}
+.txt-align-l{
+    text-align: left;
+}
+
+.mt-3percent{
+    margin-top: 3%;
+}
+
+.container-benefits{
+    margin-top: 3%;
+    background-color: #fff; 
+    padding-top: 5%; 
+    border-radius: 1.5%;
+    padding-bottom: 5%;
+}
+
+.color-blue{
+    background-color: #0A1E3D;
+}
+
+.footer-title{
+    color: #fff;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 3.2rem !important;
+    padding-bottom: 2%;
+}
+.footer-text{
+    
+    line-height: 1.2rem;
+    color: #fff
+}
+
+.color-orange{
+    color: #F26522;
+    font-weight: 700;   
+}
+
+.social{
+    color:#fff;
+    cursor: pointer;
+    font-size: 36px;
+  
+}
+
+.social:hover{
+    color:#F26522;
+}
+
+.wd100percent{
+    width: 100%;
+}
+
+.carrousel-image{
+    width: 100%;
+    height: 100%;
+}
+
+.pt10percent{
+    padding-top: 10%;
+}
+
+.pt5percent{
+    padding-top:5%;
+}
+
+.active{
+    color:#F26522;
+}
+
+
+.Height100vh{
+    height: 100vh;
+}
+
+.italic{
+    font-style: italic;
+}

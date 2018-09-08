@@ -1,0 +1,287 @@
+.text-title-about{
+    
+    text-align: center;
+    color: #0A1E3D;
+}
+
+.text-title-about h1{
+    font-size: 3.5rem;
+    border-bottom: 2px solid #0A1E3D; 
+}
+
+
+.fake-container{
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.container-fluid-balao{
+    position: relative !important;
+    
+}
+
+.DCDCDC{
+    background-color: #DCDCDC;
+}
+
+.fff{
+    background-color: #fff; 
+}
+
+.balaoCinza::after{
+    content: '';
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: #DCDCDC;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -15px;
+    margin-bottom: -30px;
+    transform: rotate(225deg);
+    z-index: 10;
+}
+
+.balaoBranco::after{
+    content: '';
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -15px;
+    margin-bottom: -30px;
+    transform: rotate(225deg);
+}
+
+.bannerAbout{
+    background-image: url('../img/about.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+    border-radius: 15px; 
+}
+.bannerAbout::after{
+    content:'';
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,.6);
+    border-radius: 15px; 
+
+}
+
+.bannerTextAbout{
+    z-index: 100;
+    color: white;
+    margin-top: 15%;
+    text-align: center;
+  
+}
+
+.bannerTextAbout h1{
+    font-size: 3.2rem !important;
+    font-weight: 500;
+}
+
+.subcontainer{
+    background-color: rgba(10, 30, 61, 0.7);
+    border-radius: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.balaozinho{
+    background-color: #fff;
+    border-radius: 15px;
+    
+}
+
+.balaozinho::after{
+    content: '';
+	position: absolute;
+	top: 15%;
+	left: 15px;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -15px;
+    margin-bottom: -30px;
+    transform: rotate(315deg);
+}
+
+.balaozinhoText{
+    text-align: center;
+   font-size: 1.2rem;
+    color: #0A1E3D;
+    font-style: italic;
+}
+
+.avatarCEO{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    
+}
+
+@media only screen and (min-width: 992px) {
+.avatarCEO figcaption{
+    margin-left: 20% !important;
+}
+
+.bannerAbout .row{
+    margin-top: 0% !important;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    .avatarCEO img{
+        margin-left: 20%;
+    }
+    .avatarCEO figcaption{
+       margin-left: 20%;
+    }
+.bannerAbout .row{
+    margin-top: 20%;
+}
+   .mt10Percent-onlyMobile{
+    margin-top: 10%; 
+   }
+
+   .mr15percentOnlyMobile{
+       margin-right: 15%;
+   }
+
+    .balaozinho::after{
+        content: '';
+        position: absolute;
+        top: -3%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 30px solid transparent;
+        border-top-color: #fff;
+        border-bottom: 0;
+        border-left: 0;
+        margin-left: -15px;
+        margin-bottom: -30px;
+        transform: rotate(45deg);
+    }
+
+    .balaozinho2::after{
+    content: '';
+	position: absolute;
+    top: 91% !important;
+	right:45% !important;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: #fff !important;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -15px;
+    margin-bottom: -30px;
+    transform: rotate(-135deg) !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .avatarCEO figcaption{
+        margin-left: 0%;
+    }
+    .bannerAbout .row{
+        margin-top: 15%;
+    }
+}
+
+.titleAboutTold{
+    text-align: center;
+    color: #fff;
+   
+}
+.titleAboutToldBlue{
+    text-align: center;
+    color: #0A1E3D;
+   
+}
+.titleAboutToldBlue h1{
+    font-size: 2.8rem !important;
+}
+
+.titleAboutTold h3{
+    font-size: 2.8rem !important;
+}
+
+.balaozinho2{
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.balaozinho2::after{
+    content: '';
+	position: absolute;
+	top: 15%;
+	right:0px;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -15px;
+    margin-bottom: -30px;
+    transform: rotate(135deg);
+}
+
+.border-avatar{
+    border: 7px solid;
+    border-radius: 50%;
+    
+}
+
+
+   
+
+
+.color-blue{
+    color: #0A1E3D !important;
+}
+
+.ourTeam{
+    color: #0A1E3D;
+    font-weight: 500;
+       
+}
+
+.ourTeam img{
+    cursor: pointer;
+    transition: .5s ;
+}
+
+.ourTeam img:hover{
+    transform: scale(1.2);
+   
+}
+
+.italic{
+    font-style: italic;
+}

@@ -1,0 +1,141 @@
+body{
+    background-color: #f7f7f7;
+}
+
+ .padding-container{
+     padding-top: 10%;
+     padding-bottom:10%; 
+     background-color: #f7f7f7;
+     height: auto;
+}
+
+.cont-box{
+    background-color: #fff;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.contactUs{
+    color: #0A1E3D;
+    text-align: center;
+}
+
+.contactUs h1{
+font-size: 3.2rem !important;
+}
+
+figcaption{
+    text-align: center;
+    color: #0A1E3D;
+    font-weight: 700;
+}
+
+.form{
+    border:2px solid #0A1E3D;
+    padding-bottom: 5%;
+}
+
+.input{
+    width: 100% !important;
+    border: none;
+    background-color:#f7f7f7; 
+    outline: none;
+    padding: 10px;
+    font-weight: 700;
+    color: #0A1E3D;
+    border: 2px solid #0A1E3D;
+}
+
+::-webkit-input-placeholder {
+    color: #0A1E3D;
+    font-weight: 700;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #0A1E3D;  
+    font-weight: 700;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #0A1E3D;  
+    font-weight: 700;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #0A1E3D;  
+    font-weight: 700;
+ }
+
+ textarea{
+    height: 200px;
+    resize:none;
+    
+}
+
+
+
+.button{
+    width: 100%;
+    color: #0A1E3D !important;
+    background-color: #fff;
+    border: 3px solid #0A1E3D;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.button:hover{
+    color: #fff !important;
+    background-color: #0A1E3D;
+    transition: 0.2s ease-in; 
+   
+}
+
+.pt2percent{
+    padding-top: 2%;
+
+}
+
+.envelope-icon{
+    font-size:7rem;
+}
+
+.envelope{
+    color: #0A1E3D;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    img{
+        margin-left: 25%;
+        padding-top: 10%;
+    }
+
+    .envelope-icon{
+      
+      /*  padding-top: 20%;*/
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    img{
+        margin-left: 25%;
+        padding-top: 20%;
+    }
+    .envelope-icon{
+      
+        padding-top: 30% ;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    img{
+        margin-left: auto;
+        padding-top: 55%;
+    }
+    .envelope-icon{
+        margin-left: auto;
+        padding-top: 55%;
+    }
+} 
